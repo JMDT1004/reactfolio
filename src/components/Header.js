@@ -6,10 +6,10 @@ function Header() {
             <h3>Portfolio</h3>
 
             <nav>
-                <NavLink to="/">test1</NavLink>
-                <NavLink to="/">test2</NavLink>
-                <NavLink to="/">test3</NavLink>
-                <NavLink to="/">test4</NavLink>
+                <NavLink to="/aboutme">AboutMe</NavLink>
+                <NavLink to="/potfolio">Portfolio</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/resume">Resume</NavLink>
             </nav>
         </header>
     )
