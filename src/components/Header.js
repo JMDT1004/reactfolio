@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
     return (
-        <header className="">
+        <header className="top">
             <h3>JMDT1004</h3>
 
             <nav>

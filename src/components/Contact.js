@@ -19,7 +19,7 @@ function Contact() {
                     type="text"
                     placeholder="Name"
                     required
-                    onBlur={(e) => e.target.value === '' && alert('This field is required')}
+                    onBlur={(e) => e.target.value === '' && alert('Name must be entered')}
                 />
                 <input
                     type="email"
@@ -27,12 +27,12 @@ function Contact() {
                     required
                     value={email}
                     onChange={handleEmailChange}
-                    onBlur={(e) => e.target.value === '' && alert('This field is required')}
+                    onBlur={(e) => e.target.value === '' && alert('Email must be entered')}
                 />
                 <textarea
-                    placeholder="Message"
+                    placeholder="Feedback and Inquiries are welcomed"
                     required
-                    onBlur={(e) => e.target.value === '' && alert('This field is required')}
+                    onBlur={(e) => e.target.value === '' && alert('Please enter a message for speedy response')}
                 />
                 <button type="submit">Submit</button>
             </form>
