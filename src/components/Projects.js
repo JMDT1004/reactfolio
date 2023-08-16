@@ -3,6 +3,8 @@ import locktight from '../logo/locktight.png';
 import weatherflix from '../logo/wetherflix.png';
 import moodsync from '../logo/moodsync.png';
 import castform from '../logo/castform.png';
+import notetaker from '../logo/notetaker.png';
+import scheduler from '../logo/scheduler.png'
 
 function Project() {
     const projects = [
@@ -29,6 +31,18 @@ function Project() {
             imageUrl: castform,
             deployedUrl: "https://jmdt1004.github.io/cast_form/",
             repoUrl: "https://github.com/JMDT1004/cast_form"
+        },
+        {
+            title: "NoteTake",
+            imageUrl: notetaker,
+            deployedUrl:"https://jmdt1004.github.io/note_taker/",
+            repoUrl:"https://github.com/JMDT1004/note_taker"
+        },
+        {
+            title: "WorkDayScheduler",
+            imageUrl:scheduler,
+            deployedUrl:"https://jmdt1004.github.io/daily_scheduler/",
+            repoUrl:"https://github.com/JMDT1004/daily_scheduler"
         }
     ];
     return (
