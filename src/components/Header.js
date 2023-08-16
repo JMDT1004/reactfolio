@@ -1,13 +1,14 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Header() {
     return (
         <header className="top">
-            <h3>JMDT1004</h3>
-
+            <NavLink className='owner' to="/aboutme" activeClassName="active-link">
+                <h3>JMDT1004</h3>
+            </NavLink>
             <nav>
-                <NavLink to="/aboutme" activeClassName="active-link">AboutMe</NavLink>
-                <NavLink to="/potfolio" activeClassName="active-link">Portfolio</NavLink>
+                <NavLink to="/portfolio" activeClassName="active-link">Portfolio</NavLink>
                 <NavLink to="/contact" activeClassName="active-link">Contact</NavLink>
                 <NavLink to="/resume" activeClassName="active-link">Resume</NavLink>
             </nav>
